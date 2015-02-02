@@ -18570,7 +18570,7 @@ var ServiceCommand = React.createClass({displayName: "ServiceCommand",
 
     return (
       React.createElement("form", {style: style.form, onSubmit: this.handleSubmit}, 
-        React.createElement("input", {type: "text", placeholder: "Pipe to service...", style: style.input, onChange: this.handleChange})
+        React.createElement("input", {type: "text", placeholder: "Pipe to service...", style: style.input, onChange: this.handleChange, autoFocus: "true"})
       )
     );
   }

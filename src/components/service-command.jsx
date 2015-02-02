@@ -30,7 +30,7 @@ var ServiceCommand = React.createClass({
 
     return (
       <form style={style.form} onSubmit={this.handleSubmit}>
-        <input type="text" placeholder="Pipe to service..." style={style.input} onChange={this.handleChange} />
+        <input type="text" placeholder="Pipe to service..." style={style.input} onChange={this.handleChange} autoFocus="true" />
       </form>
     );
   }
